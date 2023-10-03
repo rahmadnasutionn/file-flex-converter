@@ -35,6 +35,7 @@ function About() {
             Stack: {' '}
             {stacks.map((stack, index) => (
               <Link
+                key={index}
                 href={stack.href}
                 target='_blank'
                 className='text-purple-600'
